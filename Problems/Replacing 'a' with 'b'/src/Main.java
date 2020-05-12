@@ -1,0 +1,16 @@
+// Posted from EduTools plugin
+import java.util.Scanner;
+
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String text1 = scanner.next();
+
+        String changeLetter = text1.replace('a', 'b');
+
+        System.out.println(changeLetter);
+
+    }
+}
