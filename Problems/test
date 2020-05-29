@@ -1,0 +1,5 @@
+
+
+
+
+boolean result = (b1 && b2) ? b1 : (b2 || b3) ? b2 : b3;

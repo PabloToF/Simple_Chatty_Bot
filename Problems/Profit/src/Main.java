@@ -5,14 +5,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int money = scanner.nextInt();
-        int year_percent = scanner.nextInt();
-        int objective = scanner.nextInt();
+        float money = scanner.nextInt();
+        float yearPercent = scanner.nextInt();
+        float objective = scanner.nextInt();
 
-        int time = 1;
+
+        int time = 0;
 
         while (money < objective) {
-            money += year_percent;
+            money += money * (yearPercent / 100);
             time++;
         }
         System.out.println(time);
